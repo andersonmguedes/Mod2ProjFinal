@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+body {
+    background: #eeeeee;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.header{
+    padding-top: 20px;
+    background: #FFFFFF;
+}
+
+.div-read_single{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #878787;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 3px 3px 13px rgb(46, 211, 5);
+    
+}
+.bloco{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao{
+    background-color: #89c00a;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(46, 211, 5);
+}
+.botao_voltar{
+    background-color: #0d0ac0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(56, 36, 235);
+}
+
+.botao:hover{
+    background-color: #5673ee;
+    transition: 0.55s;
+}
+
+.tabela{
+    border: 1px solid #adadad;
+    border-spacing: 0;
+    margin: 0 50px 20px;
+    width: 100%;
+}
+
+.tabela tr:nth-child(even) td{
+    background-color: white;
+}
+
+.tabela td{
+    padding: 10px;
+}
+
+.tabela_header td{
+    font-weight: bold;
+}
+
+#imagemSingle{
+    max-height: 400px;
+}
+
+.form{
+    width: 600px;
+}
+
+.form_input{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_input label{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.form_input input[type=text]{
+    width: 450px;
+    padding: 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #a39494;
+    box-sizing: border-box;
+}
+
+.form_input input[type=submit]{
+    width: 100%;
+}
+
+.novo_id{
+    background: #3359ec;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.sucesso{
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+    margin: 0 50px;
+}
+
+.removido{
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+    margin: 0 50px;
+}
+
+.certeza{
+    font-size: 14px;
+}
